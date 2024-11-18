@@ -13,6 +13,9 @@ app.get("/Home",(req,res)=>{
 app.get("/contact",(req,res)=>{
     res.send("Contact Me!")
 })
+app.get("/Donate",(req,res)=>{
+    res.send("Donate and help")
+})
 
 app.listen(port,()=>{
     console.log(`server started on port ${port}`);
